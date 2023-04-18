@@ -10,4 +10,5 @@ variable "protocol" {
 
 variable "endpoint" {
   description = "The endpoint to send data to, the contents will vary with the protocol. See this for more info: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic_subscription#endpoint."
+  type        = string
 }

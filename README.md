@@ -73,7 +73,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_endpoint"></a> [endpoint](#input\_endpoint) | The endpoint to send data to, the contents will vary with the protocol. See this for more info: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic_subscription#endpoint. | `any` | n/a | yes |
+| <a name="input_endpoint"></a> [endpoint](#input\_endpoint) | The endpoint to send data to, the contents will vary with the protocol. See this for more info: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic_subscription#endpoint. | `string` | n/a | yes |
 | <a name="input_protocol"></a> [protocol](#input\_protocol) | The protocol to use. See this for more info: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic_subscription#protocol. | `string` | n/a | yes |
 | <a name="input_topic_arn"></a> [topic\_arn](#input\_topic\_arn) | The ARN of the SNS topic to subscribe to | `string` | n/a | yes |
 
