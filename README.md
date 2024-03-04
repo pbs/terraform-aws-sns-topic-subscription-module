@@ -7,7 +7,7 @@
 Use this URL for the source of the module. See the usage examples below for more details.
 
 ```hcl
-github.com/pbs/terraform-aws-sns-topic-subscription-module?ref=0.0.16
+github.com/pbs/terraform-aws-sns-topic-subscription-module?ref=x.y.z
 ```
 
 ### Alternative Installation Methods
@@ -22,7 +22,7 @@ Integrate this module like so:
 
 ```hcl
 module "subscription" {
-  source = "github.com/pbs/terraform-aws-sns-topic-subscription-module?ref=0.0.16"
+  source = "github.com/pbs/terraform-aws-sns-topic-subscription-module?ref=x.y.z"
 
   topic_arn = module.topic.arn
   protocol  = "lambda"
@@ -34,7 +34,7 @@ module "subscription" {
 
 If this repo is added as a subtree, then the version of the module should be close to the version shown here:
 
-`0.0.16`
+`x.y.z`
 
 Note, however that subtrees can be altered as desired within repositories.
 
